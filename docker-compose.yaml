@@ -1,0 +1,10 @@
+version: '3'
+services:
+    backend:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            args: 
+                PERSONAL_WEBSITE_ENV: ${PERSONAL_WEBSITE_DOCKER_ENV}
+        ports: 
+            - "8080:8080"
