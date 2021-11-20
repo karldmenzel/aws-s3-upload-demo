@@ -1,4 +1,4 @@
-package dev.karlmenzel.personalwebsitebackend.config;
+package dev.karlmenzel.demos.config;
 
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

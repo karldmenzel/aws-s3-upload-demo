@@ -1,13 +1,12 @@
-package dev.karlmenzel.personalwebsitebackend;
+package dev.karlmenzel.demos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PersonalWebsiteBackendApplication {
+public class AwsS3UploadDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PersonalWebsiteBackendApplication.class, args);
+		SpringApplication.run(AwsS3UploadDemoApplication.class, args);
 	}
-
 }
