@@ -27,7 +27,7 @@ To run this project through gradle and docker you must have the following respec
 To run this project locally use either of these commands:
 
 `./gradlew clean build bootRun`
-`./gradlew build && java -jar build/libs/personal-website-backend-0.0.1-SNAPSHOT.jar`
+`./gradlew build && java -jar build/libs/spring-template-0.0.1-SNAPSHOT.jar`
 
 To build and run the docker conatiner:
 

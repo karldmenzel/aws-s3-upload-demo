@@ -44,3 +44,9 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+
+application-local.properties
+
+bin/**/*
+.settings/*
+.project
