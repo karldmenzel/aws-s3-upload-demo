@@ -50,3 +50,4 @@ application-local.properties
 bin/**/*
 .settings/*
 .project
+
