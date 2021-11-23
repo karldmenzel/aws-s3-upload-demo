@@ -21,9 +21,15 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
+	implementation 'org.springframework.cloud:spring-cloud-aws-autoconfigure:2.2.6.RELEASE'
+	implementation 'org.springframework.cloud:spring-cloud-aws-context:2.2.6.RELEASE'
+
 	implementation "software.amazon.awssdk:s3:2.16.62"
 	implementation "software.amazon.awssdk:sts:2.16.62"
-	
+
+	implementation "com.amazonaws:aws-java-sdk-s3:1.12.77"
+	implementation "com.amazonaws:aws-java-sdk-sts:1.12.77"
+
 	//Security
 	implementation 'org.springframework.security:spring-security-config:5.3.3.RELEASE'
 	implementation 'org.springframework.security.oauth:spring-security-oauth2:2.5.0.RELEASE'

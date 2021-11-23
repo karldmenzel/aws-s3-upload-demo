@@ -21,7 +21,7 @@ public class AwsS3Controller {
     @CrossOrigin(origins = {"http://localhost", "http://localhost:3000"})
     @GetMapping("/uploadFile")
     public String uploadFile() {
-        fileUploadProcessor.uploadFile();
+        fileUploadProcessor.appendToFile();
 
         return "Hello world";
     }
