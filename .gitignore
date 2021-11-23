@@ -51,3 +51,6 @@ bin/**/*
 bin/*
 .settings/*
 .project
+
+.DS_Store
+.classpath
