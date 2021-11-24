@@ -30,7 +30,7 @@ public class FileUploadProcessor {
 
         PutObjectRequest putObjectRequest = PutObjectRequest.builder()
             .bucket("dev.karlmenzel.personalwebsite")
-            .key("test-folder-2/HelloWorld.txt")
+            .key("test-folder/HelloWorld.txt")
             .build();
 
         s3Client.putObject(putObjectRequest, RequestBody.fromFile(file));

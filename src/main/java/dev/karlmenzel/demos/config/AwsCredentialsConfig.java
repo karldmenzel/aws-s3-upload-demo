@@ -9,7 +9,6 @@ import software.amazon.awssdk.services.sts.auth.StsAssumeRoleCredentialsProvider
 import software.amazon.awssdk.services.sts.model.AssumeRoleRequest;
 import software.amazon.awssdk.regions.Region;
 
-
 @Configuration
 public class AwsCredentialsConfig {
     @Value("${dev.karlmenzel.roleArn}")
@@ -23,7 +22,6 @@ public class AwsCredentialsConfig {
         StsClient stsClient = StsClient.builder()
         .region(Region.US_EAST_1)
         .build();
-    
 
         AssumeRoleRequest roleRequest = AssumeRoleRequest.builder()
             .roleSessionName("karlTestSessionName")

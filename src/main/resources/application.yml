@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: [dev, local]
+
+server:
+  servlet:
+    context-path: /aws-s3-upload-demo
+  error:
+    include-stacktrace: never

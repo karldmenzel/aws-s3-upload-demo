@@ -46,8 +46,8 @@ gradle-app.setting
 **/build/
 
 application-local.properties
+application-local.yml
 
-bin/**/*
 bin/*
 .settings/*
 .project
